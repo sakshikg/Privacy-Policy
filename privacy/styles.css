@@ -1,0 +1,77 @@
+.one{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+        justify-content: center;
+}
+
+.body{
+    
+    font-family: 'Playfair Display', serif;
+}
+
+.one h3{
+    width: 40rem;
+    margin-left: ;
+    margin: 0 auto;    
+    display: flex;
+  justify-content: center; /* Vertically center the element */
+  align-items: center;
+}
+
+.img2{
+    height: 5rem;
+    width: 23rem;
+}
+
+
+.bold{
+    font-weight: 1300;
+    text-decoration: underline;
+}
+
+.line{
+    background-color: rgb(54, 54, 54);
+    height: 1px;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    
+  }
+  
+.photo{
+    margin: 0 auto; 
+    width: 40rem;
+    height: 20rem;
+}
+
+.firefox{
+    height: 3rem;
+    width: 11rem;
+    padding-bottom: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+    
+.one{
+    font-size: 0.7rem;
+}
+
+
+    .image-grid{
+        display: block;
+    }
+
+.photo{
+    width: 100vw;
+    height: 15rem;
+}
+
+.one h3{
+    width: 100vw;
+}
+
+  }
